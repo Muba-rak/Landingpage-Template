@@ -1,0 +1,115 @@
+@media (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        padding-left: 30px;
+    }
+    .footer_left{
+        text-align: left;
+    }
+    .footer_left_1{
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        margin: auto;
+        margin-left: 3px;
+    }
+    .footer_left_1 h3{
+        font-family: 'Helvetica Neue Medium Extended';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+    }
+    .footer_left_2{
+        /* width: 308px; */
+        height: 66.81px;
+        margin: auto;
+    }
+    .footer_left_2 p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        
+    }
+    .footer_right_1 img{
+        width: 22px;
+        height: 22.6px;
+    }
+    .footer_mid_1 h2{
+        font-family: 'Helvetica Neue Medium Extended';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        color: #CCCCCC;
+    }
+    .footer_mid_2 input {
+        width: 256px;
+        height: 76.06px;
+        padding-left: 20px;
+        border-radius: 5px;
+
+    }
+    .footer_mid_2 button{
+        width: 256px;
+        height: 76.06px;
+        border-radius: 5px;
+        background-color: #467E9D;
+        margin-top: 10px;
+        color: #CCCCCC;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .footer_right h3{
+        font-family: 'Helvetica Neue Medium Extended';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        color: #CCCCCC;
+    }
+    .footer_right_1{
+        display: flex;
+        justify-content: space-between;
+        width: 180px;
+    }
+   }
+   @media (min-width: 375px){}
+   @media (min-width: 425px){}
+   @media (min-width: 768px){}
+   @media (min-width: 1024px){
+       .footer{
+           padding-top: 80px;
+           display: flex;
+           height: 370px;
+           width: 100%;
+           justify-content: space-around;
+       }
+       .footer_left_1{
+        margin-left: 3px;
+        }
+        .footer_left_2{
+            width: 308px;
+            height: 66.81px;
+            margin: auto;
+        }
+        .footer_mid_2 input{
+            width: 506px;
+        }
+        .footer_mid_2 button{
+            width: 506px;
+
+        }
+   }

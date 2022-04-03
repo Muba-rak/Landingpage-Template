@@ -1,0 +1,124 @@
+@media (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .homesec3{
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+       
+    }
+    .homesec3_h1 h1{
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .underline{
+        width: 90px;
+        height: 0px;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 26px;
+        background-color: #467E9D;
+        border: 6px solid #467E9D;
+    
+    }
+    .homesec3_content{
+        margin: auto;
+        margin-top: 40px;
+        padding-top: 20px;
+    
+    }
+    .content_1{
+        margin: auto;
+        height: 562px;
+        text-align: left;
+        
+    }
+    .content_1 p{
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #292929;
+    }
+    .content_2{
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .content_2 img{
+        width: 300px;
+        margin: auto;
+    }
+
+
+   }
+   @media (min-width: 375px){}
+   @media (min-width: 425px){}
+   @media (min-width: 768px){
+    .content_2 img{
+        width: 500px;
+        margin: auto;
+    }
+   }
+   @media (min-width: 1024px){
+    .homesec3{
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+       
+    }
+    .homesec3_h1 h1{
+        font-size: 30px;
+        line-height: 33px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .underline{
+        width: 90px;
+        height: 0px;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 26px;
+        background-color: #467E9D;
+        border: 6px solid #467E9D;
+    
+    }
+    .homesec3_content{
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+        padding-top: 20px;
+    
+    }
+    .content_1{
+        flex: 1;
+        height: 562px;
+        text-align: left;
+        
+    }
+    .content_1 p{
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: 400;
+        color: #292929;
+    }
+    .content_2{
+        flex: 1;
+        height: 562px;
+        margin-top: 0px;
+    }
+    .content_2 img{
+        margin-top: 0px;
+        width: 685px;
+        height: 561.69px;
+
+    }
+        
+    
+
+   }

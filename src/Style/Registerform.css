@@ -1,0 +1,128 @@
+@media (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .form_img{
+        width: 205px;
+        height: 205px;
+        border-radius: 100px;
+    }
+    .register_form_content{
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .reg_form_left{
+        background-color: aliceblue;
+    }
+    .reg_form_right{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .main_form input{
+        width: 280px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #292929;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding-left: 10px;
+    }
+    .main_form select{
+        width: 280px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #292929;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding-left: 10px;
+    }
+    .main_form button{
+        margin-top: 10px;
+        width: 280px;
+        height: 60px;
+        background-color: #467E9D;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 32px;
+
+    }
+    .reg_form_right p{
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #292929;
+    }
+    .reg_form_right h3{
+        font-family: 'Georgia';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+        color: #292929;
+    }
+    .anna p{
+        font-family: 'Georgia';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+        color: #292929;
+    }
+
+   }
+   @media (min-width: 375px){}
+   @media (min-width: 425px){}
+   @media (min-width: 768px){}
+   @media (min-width: 1024px){
+       .register_form_content{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+       }
+       .reg_form_left{
+           flex: 1;
+           background-color: aliceblue;
+       }
+       .reg_form_right{
+        flex: 1;
+        text-align: center;
+        margin-top: 0px;
+        }
+        .main_form input{
+            width: 622px;
+            height: 69px;
+           
+        }
+        .main_form select{
+            width: 622px;
+            height: 69px;
+        }
+        .main_form button{
+            margin-top: 10px;
+            width: 622px;
+            height: 69px;
+
+        }
+        .form_password{
+            display: flex;
+            width: 622px;
+            justify-content: space-between;
+        }
+        .form_password input{
+            width: 280.66px;
+            height: 69px;
+        }
+   }

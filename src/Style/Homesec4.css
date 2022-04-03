@@ -1,0 +1,71 @@
+@media (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .homesec4{
+        background-color: #D1EBF9;
+        margin-top: 50px;
+        padding-top: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .homesec4_container{
+        width: 90%;
+        margin: auto;
+    }
+    .item_description img{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        text-align: center;
+    
+    }
+    .item_description p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #292929;
+        margin-top: 10px;
+    }
+    .item_description h2{
+        font-family: 'Helvetica Neue Medium Extended';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .item_description h4{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 33px;
+        color: #CE1126;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    
+   }
+   @media (min-width: 375px){}
+   @media (min-width: 425px){}
+   @media (min-width: 768px){}
+   @media (min-width: 1024px){
+    .homesec4{
+        background-color: #D1EBF9;
+        margin-top: 50px;
+        padding-top: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .homesec4_container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+   }

@@ -1,0 +1,124 @@
+@media (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .paymentdetails p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #292929;
+    }
+    .paymentdetails h1{
+        font-family: 'Helvetica Neue Medium Extended';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 32px;
+        text-align: left;
+        color: #292929;
+    }
+    .pd_1 div{
+        width: 161px;
+        height: 32px;
+        border-bottom: 0.3px solid #B1B1B1;
+    }
+    .pd_1 h3{
+        font-family: 'Helvetica Neue Medium Extended';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .pd_2_side{
+        display: none;
+    }
+    
+    
+   }
+   @media (min-width: 375px){}
+   @media (min-width: 425px){}
+   @media (min-width: 768px){}
+   @media (min-width: 1024px){
+    .paymentdetails{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        padding-top: 73px;
+        margin-bottom: 70px;
+    }
+    .pd_1{
+        flex: 1;
+    }
+    .pd_1 div{
+        width: 161px;
+        height: 32px;
+        border-bottom: 0.3px solid #B1B1B1;
+    }
+    .pd_1 h3{
+        font-family: 'Helvetica Neue Medium Extended';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .pd_2{
+        flex: 3;
+        display: flex;
+        margin-top: 30px;
+    }
+    .impact div{
+        display: flex;
+        justify-content: space-between;
+        width: 415px;
+        border-bottom: 0.3px solid #B1B1B1;
+
+    }
+    .pd_2_main{
+        flex: 2;
+    }
+    .pd_2_side{
+        display: block;
+        flex: 1;
+    }
+    .shadow_side{
+        width: 318px;
+        height: 145px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        border-top: 5px solid #467E9D;
+
+
+    }
+    .shadow_side h1{
+        margin: auto;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 32px;
+        text-align: center;
+        color: #467E9D;
+    }
+    .shadow_side p{
+        margin: auto;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #467E9D;
+
+    }
+   }
+
+   
